@@ -1,0 +1,46 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+
+
+}
+.logo {
+    padding-top: 40px;
+        padding-bottom: 40px;
+}
+.nav__list { 
+    display: flex;
+    gap: 40px; 
+}
+
+.nav__link{
+    font-family: 'Roboto';
+    font-size: 19px;
+    line-height: 1.68;
+    color: #274C5B;
+
+    letter-spacing: 0.36px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cart{
+width: 135px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+font-family: 'Roboto';
+font-size: 17px;
+    line-height: 1.69;
+    color: #274C5B;
+    border: 1px solid #D4D4D4;
+    border-radius: 33px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

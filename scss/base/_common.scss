@@ -1,9 +1,12 @@
 body {
-    font-family: Sa;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color-theme-light);
-    background-color: var(--primary-background-color);
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.36px;
+    color: #274C5B;
+    background-color: #F9F8F8;
+    margin: 0;
+    padding: 0;
 }
 
 .list {
@@ -47,8 +50,11 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 * {
     box-sizing: border-box;
 }
