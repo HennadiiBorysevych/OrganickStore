@@ -31,5 +31,11 @@
     
 }
 .btn--accent{
+    
     background-color: var(--secondary-text-color);
+    color: #FFFFFF;
+    max-width: 199px;
+    &::after{
+        background-color: #335B6B;
+    }
 }

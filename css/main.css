@@ -166,6 +166,11 @@ a {
 
 .btn--accent {
   background-color: var(--secondary-text-color);
+  color: #FFFFFF;
+  max-width: 199px;
+}
+.btn--accent::after {
+  background-color: #335B6B;
 }
 
 :root {
@@ -225,7 +230,8 @@ a {
 
 .hero-section {
   background-image: url("../images/hero.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-section {
@@ -279,4 +285,56 @@ a {
 .ads__title.ads__title--blue {
   color: var(--secondary-text-color);
   max-width: 237px;
+}
+
+.about-us__wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.about-us__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.3;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+  margin-bottom: 25px;
+}
+
+.about-us__description {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+  margin-bottom: 55px;
+}
+
+.about-us__list {
+  margin-bottom: 50px;
+}
+
+.about-us__item {
+  display: flex;
+  gap: 25px;
+}
+
+.about-us__title-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.4;
+  letter-spacing: 0.36px;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+
+.about-us__text-list {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+  margin-bottom: 25px;
 }/*# sourceMappingURL=main.css.map */
