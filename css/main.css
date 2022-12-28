@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.36px;
   color: #274C5B;
-  background-color: #F9F8F8;
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
 }
@@ -129,6 +129,10 @@ a {
   }
 }
 
+.section--bg-color {
+  color: #F9F8F8;
+}
+
 .btn {
   font-family: "Roboto";
   display: flex;
@@ -141,6 +145,10 @@ a {
   border: 1px solid #EFD372;
   border-radius: 16px;
   margin-left: 0;
+  transition: 250ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.btn:hover {
+  background-color: var(--order-btn-active);
 }
 
 .btn::after {
@@ -156,7 +164,12 @@ a {
   background-position: center;
 }
 
+.btn--accent {
+  background-color: var(--secondary-text-color);
+}
+
 :root {
+  --secondary-bg-color:#F9F8F8;
   --primary-text-color: #525C60;
   --secondary-text-color: #274C5B;
   --accent-text-color: #7EB693;
