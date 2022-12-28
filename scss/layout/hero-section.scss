@@ -1,0 +1,35 @@
+.hero-section {
+    background-image: url('../images/hero.jpg');
+    background-size: contain;
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('../images/hero@2.jpg');
+    }
+}
+
+.subtitle {
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 1.8;
+
+    text-transform: capitalize;
+    
+    color: var(--accent-text-color);
+    margin-bottom: 15px;
+}
+
+.hero-title {
+    max-width: 522px;
+
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.2;
+
+    color: var(--secondary-text-color);
+    margin-bottom: 30px;
+}
+.hero-wrapper{
+    padding-top: 220px;
+    padding-bottom: 220px;
+}

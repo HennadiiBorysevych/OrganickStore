@@ -1,0 +1,28 @@
+.btn{
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 19px;
+    line-height: 1.68;
+    background-color: var(--btn-bg);
+    
+    text-transform: capitalize;
+    
+    color: var(--secondary-text-color);
+    padding: 25px 10px 25px 33px;
+        border: 1px solid #EFD372;
+        border-radius: 16px;
+        margin-left: 0;
+}
+.btn::after{
+    content: '';
+    display: block;
+    border-radius: 50%;
+    width: 38px;
+    height: 32px;
+    margin-left: 16px;
+    background-color: var(--secondary-text-color);
+    background-image: url(../../images/btn-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

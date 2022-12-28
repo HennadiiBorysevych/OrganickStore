@@ -92,8 +92,15 @@ a {
 }
 @font-face {
   font-family: "OpenSans";
-  src: url("./fonts/OpenSans.woff2") format("woff2"), url("./fonts/OpenSans.woff") format("woff");
+  src: url("./fonts/OpenSans-Bold.woff2") format("woff2"), url("./fonts/OpenSans-Bold.woff") format("woff");
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url("./fonts/Yellowtail-Regular.woff2") format("woff2"), url("./fonts/Yellowtail-Regular.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -107,6 +114,44 @@ a {
     padding-top: 94px;
     padding-bottom: 94px;
   }
+}
+
+.btn {
+  font-family: "Roboto";
+  display: flex;
+  font-size: 19px;
+  line-height: 1.68;
+  background-color: var(--btn-bg);
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+  padding: 25px 10px 25px 33px;
+  border: 1px solid #EFD372;
+  border-radius: 16px;
+  margin-left: 0;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 38px;
+  height: 32px;
+  margin-left: 16px;
+  background-color: var(--secondary-text-color);
+  background-image: url(../../images/btn-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+:root {
+  --primary-text-color: #525C60;
+  --secondary-text-color: #274C5B;
+  --accent-text-color: #7EB693;
+  --btn-bg: #EFD372;
+  --order-btn-active: #d2ac22;
+  --background-color-secondary: #F9F8F8;
+  --card-set-gap: 30px;
+  --social-links-fill: #a3861c;
 }
 
 .header-wrapper {
@@ -149,4 +194,27 @@ a {
   border-radius: 33px;
   padding-top: 7px;
   padding-bottom: 7px;
+}
+
+.subtitle {
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  line-height: 1.8;
+  text-transform: capitalize;
+  color: var(--accent-text-color);
+  margin-bottom: 15px;
+}
+
+.hero-title {
+  max-width: 522px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.2;
+  color: var(--secondary-text-color);
+  margin-bottom: 30px;
+}
+
+.hero-wrapper {
+  padding-top: 220px;
+  padding-bottom: 220px;
 }/*# sourceMappingURL=main.css.map */

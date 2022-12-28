@@ -2,5 +2,8 @@
 @import './base/container';
 @import './base/fonts';
 @import './base/section';
+@import './components/btn';
+@import './utils/variables';
 
 @import './layout/header';
+@import './layout/hero-section.scss';
