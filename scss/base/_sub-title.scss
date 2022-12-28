@@ -1,0 +1,13 @@
+.subtitle {
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    line-height: 1.8;
+
+    text-transform: capitalize;
+
+    color: var(--accent-text-color);
+    margin-bottom: 15px;
+}
+.subtitle--white{
+    color: var(--third-text-color);
+}

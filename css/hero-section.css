@@ -8,15 +8,6 @@
   }
 }
 
-.subtitle {
-  font-family: "Yellowtail", cursive;
-  font-size: 36px;
-  line-height: 1.8;
-  text-transform: capitalize;
-  color: var(--accent-text-color);
-  margin-bottom: 15px;
-}
-
 .hero-title {
   max-width: 522px;
   font-weight: 700;
