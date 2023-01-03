@@ -1,5 +1,6 @@
 body {
   font-family: "OpenSans", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.36px;
@@ -114,19 +115,13 @@ a {
   font-family: "Yellowtail";
   src: url("./fonts/Yellowtail-Regular.woff2") format("woff2"), url("./fonts/Yellowtail-Regular.woff") format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
   font-display: swap;
 }
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
-}
-@media screen and (min-width: 1200px) {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 .section--bg-color {
@@ -210,6 +205,10 @@ a {
   letter-spacing: 0.36px;
   padding-top: 40px;
   padding-bottom: 40px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav__link:hover {
+  text-decoration: underline;
 }
 
 .cart {
@@ -337,4 +336,75 @@ a {
   line-height: 1.8;
   color: var(--primary-text-color);
   margin-bottom: 25px;
+}
+
+.subtitle--product--accent {
+  text-align: center;
+}
+
+.product__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product__item {
+  background: #F9F8F8;
+  border-radius: 30px;
+  padding: 19px;
+}
+
+.product__subtitle--wrapper {
+  max-width: 118px;
+  background: var(--secondary-text-color);
+  border-radius: 8px;
+}
+
+.product__subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.36px;
+  text-align: center;
+  color: var(--third-text-color);
+  padding: 5px 20px;
+}
+
+.product__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  letter-spacing: 0.36px;
+  color: var(--secondary-text-color);
+  margin-bottom: 12px;
+}
+
+.product__rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__price-list {
+  display: flex;
+  gap: 8px;
+}
+
+.product__prev-price {
+  font-size: 17px;
+  line-height: 1.91;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #B8B8B8;
+}
+
+.product__current-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--secondary-text-color);
 }/*# sourceMappingURL=main.css.map */
