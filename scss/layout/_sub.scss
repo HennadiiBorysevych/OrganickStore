@@ -1,0 +1,35 @@
+.subscruption--bg{
+    background-image: url(../../images/oranges.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    padding-bottom: 146px;
+    padding-top: 146px;
+}
+
+.subscruption-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.sub__label {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub__input {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+    width: 350px;
+    padding: 26px 100px 26px 30px;
+}
+.sub__input::placeholder{
+    margin-left: 30px;
+}
+.sub--accent{
+    padding: 15px 10px 18px 33px
+}
